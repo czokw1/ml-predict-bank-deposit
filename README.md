@@ -13,10 +13,12 @@ To deal to with the unbalanced data I decided to check SMOTE, upsampled and down
 
 Performance increased after balancing the dataset.
 
-XGBoost classifier using the upsampled method gives the best F1 score result.
+DecisionTreeClassifier using SMOTE method gives the best F1 score result from those three scenarios.
 
 I also tested if splitting customers into new and existing ones gives any interesting insights.
 
 On the dataset related to new clients the F1 score was really low, which means that this model cannot accurately predict getting a bank term by a new customer.
 
-On the dataset related to existing clients the F1 score shows much better results. I think such a model can be used to predict getting a bank term by an existing customer.
+On the dataset related to existing clients the F1 score shows much better results.
+
+I think such a model might be used to predict getting a bank term by an existing customer.
